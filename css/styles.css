@@ -224,10 +224,13 @@ a {
 /* PROJECTS */
 .project-item {
   display: inline-block;
+  vertical-align: top;
 }
 
 .project-item:not(:nth-child(3n)) {
   margin-right: 30px;
+}
+.title-card {
   border: 1px solid var(--secondary-color);
   border-top: 0;
 }
@@ -268,7 +271,6 @@ a {
 .footer-bg {
   background-color: var(--gray-background);
   height: 252px;
-  width: 1600px;
   left: 0px;
   top: 2097px;
   border-radius: 0px;
@@ -276,6 +278,7 @@ a {
 
 .adress-list {
   font-style: normal;
+  display: inline-block;
 }
 
 .logo-header {
@@ -288,6 +291,10 @@ a {
   font-size: 14px;
   line-height: 1.71;
   margin-top: 20px;
+}
+
+.footer-link {
+  display: block;
 }
 
 .mail-link,
@@ -320,7 +327,8 @@ a {
   text-align: center;
   text-transform: uppercase;
   width: 696px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   padding-top: 200px;
   /* outline: 2px solid tomato; */
