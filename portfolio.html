@@ -8,22 +8,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     
 </head>
 <body class="page">
     <!-- Верхня лінія-->
-        <header class="">
-            <nav class="nav">
-                <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
-                <ul class="nav-list">
-                    <li><a class="nav-adress" href="./index.html">Студия</a></li>
-                    <li><a class="nav-adress current" href="./portfolio.html">Портфолио</a></li>
-                    <li><a class="nav-adress" href="">Контакты</a></li>
-                </ul>
-             </nav>
-                <ul class="nav-list">
+        <header class="page-header">
+            <div class=" container main-nav">
+                <nav class="nav">
+                    <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
+                    <ul class="nav-list list">
+                        <li class="nav-item">
+                            <a class="nav-adress" href="./index.html">Студия</a></li>
+                        <li class="nav-item">
+                            <a class="nav-adress current" href="./portfolio.html">Портфолио</a></li>
+                        <li class="nav-item">
+                            <a class="nav-adress" href="">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="contacts-list">
                     <li class="nav-item">
                         <a class="mail-list" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
@@ -31,6 +35,8 @@
                         <a class="tel-list" href="tel:+380961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
+            </div>
+            
     </header>
    <!-- filters -->
   <main>
@@ -57,7 +63,7 @@
            </div>
         </section>
         
-        <section class="projects">
+        <section class="projects section">
             <ul class="projects-list">
                 <li class="project-item">
                     <img 
@@ -166,19 +172,20 @@
 
     <!-- Подвал -->
     <footer class="footer-bg">
-        <address class="adress-list">
-            <a class="logo-footer" href="./portfolio.html">Web<span class="logo-white">Studio</span></a>
-            <p class="adress-owner">г. Киев, пр-т Леси Украинки, 26</p>   
-            <ul class="footer-link">
-                <li class="adress-item">
+        <div class="container">
+            <address class="adress-list">
+                <a class="logo-footer" href="./portfolio.html">Web<span class="logo-white">Studio</span></a>
+                <p class="adress-owner">г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="footer-link">
+                    <li class="adress-item">
                     <a class="mail-link" href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li class="adress-item">
+                    </li>
+                    <li class="adress-item">
                     <a class="tel-link" href="+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-    
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>

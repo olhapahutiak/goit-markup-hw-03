@@ -14,19 +14,20 @@
 
 <body class="page">
     <!-- Верхня лінія-->
-        <header class="logo-header">
-            <div class="logo-container">
+        <header class="page-header">
+            <div class=" container main-nav">
                 <nav class="nav">
                     <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
-                    <ul class="nav-list">
-                        <li><a class="nav-adress current" href="./index.html">Студия</a></li>
-                        <li><a class="nav-adress " href="./portfolio.html">Портфолио</a></li>
-                        <li><a class="nav-adress" href="">Контакты</a></li>
+                    <ul class="nav-list list">
+                        <li class="nav-item">
+                            <a class="nav-adress current" href="./index.html">Студия</a></li>
+                        <li class="nav-item">
+                            <a class="nav-adress " href="./portfolio.html">Портфолио</a></li>
+                        <li class="nav-item">
+                            <a class="nav-adress" href="">Контакты</a></li>
                     </ul>
                 </nav>
-            </div>
-            <div class="">
-                <ul class="nav-list">
+                <ul class="contacts-list">
                     <li class="nav-item">
                         <a class="mail-list current" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
@@ -48,49 +49,55 @@
         <!-- Особливості -->
         <section class="features">
             <!-- Заголовок відсутній -->
-            <ul class="features-list">
-                <li class="title-list">
-                    <div class="">
-                        <h3 class="heading">Внимание к деталям</h3>
-                        <p class="content">Идейные соображения, а также<br>начало повседневной работы по<br>формированию позиции.</p>
-                    </div>                    
-                </li>
-                <li class="title-list">
-                    <div>
-                        <h3 class="heading">Пунктуальность</h3>
-                        <p class="content">Задача организации, в особенности<br>же рамки и место обучения кадров<br>влечет за собой.</p>
-                    </div>    
-                </li>
-                <li class="title-list">
-                    <div>
-                        <h3 class="heading">Планирование</h3>
-                        <p class="content">Равным образом консультация с<br>широким активом в значительной<br>степени обуславливает.</p>
-                    </div>                   
-                <li class="title-list">
-                    <div>
-                        <h3 class="heading">Современные технологии</h3>
-                        <p class="content">Значимость этих проблем настолько<br>очевидна, что реализация плановых<br>заданий.</p>
-                    </div>                 
-                </li>
-            </ul>
+            <div class="container ">
+                 <ul class="features-list">
+                    <li class="title-list">
+                        <div class="">
+                            <h3 class="heading">Внимание к деталям</h3>
+                             <p class="content">Идейные соображения, а также<br>начало повседневной работы по<br>формированию позиции.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="title-list">
+                        <div class="">
+                            <h3 class="heading">Пунктуальность</h3>
+                            <p class="content">Задача организации, в особенности<br>же рамки и место обучения кадров<br>влечет за собой.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="title-list">
+                        <div>
+                            <h3 class="heading">Планирование</h3>
+                            <p class="content">Равным образом консультация с<br>широким активом в значительной<br>степени обуславливает.
+                            </p>
+                        </div>
+                    <li class="title-list">
+                        <div>
+                            <h3 class="heading">Современные технологии</h3>
+                            <p class="content">Значимость этих проблем настолько<br>очевидна, что реализация плановых<br>заданий.</p>
+                        </div>
+                    </li>
+                    </ul>
+            </div>
+
         </section>
         <!-- Чем мы занимаемся -->
         <section class="work-photo">
         <h2 class="work">Чем мы занимаемся</h2>
-            <ul class="">
-                <li>
+            <ul class="list">
+                <li class="photo-item">
                     <img class="photo-list"
                     src="./images/img1.jpg" 
                     alt="Монітор компа1" 
                     width="370">
                 </li>
-                <li>
+                <li class="photo-item">
                     <img class="photo-list"
                     src="./images/img2.jpg"
                     alt="Монітор компа2" 
                     width="370">
                 </li>
-                <li>
+                <li class="photo-item">
                     <img class="photo-list"
                     src="./images/img3.jpg" 
                     alt="Монітор компа3" 
@@ -101,9 +108,9 @@
 
         <!-- Наша команда -->
         <h2 class="title-team">Наша команда</h2>
-        <section class="section-team">
+        <section class="section-team section">
             <ul class="team-description">
-                <li class="">
+                <li class="team-number">
                     <img class="photo-team"
                     src="./images/team/ID.jpg" 
                     alt="Игорь Демьяненко" 
@@ -113,7 +120,7 @@
                         <p class="position" lang="en">Product Designer</p>
                     </div>
                 </li>
-                <li>
+                <li class="team-number">
                     <img class="photo-team"
                     src="./images/team/OR.jpg" 
                     alt="Ольга Репина" 
@@ -123,7 +130,7 @@
                     <p class="position" lang="en">Frontend Developer</p>
                   </div>  
                 </li>
-                <li>
+                <li class="team-number">
                     <img class="photo-team"
                     src="./images/team/NT.jpg" 
                     alt="Николай Тарасов" 
@@ -133,7 +140,7 @@
                     <p class="position" lang="en">Marketing</p>
                     </div>
                 </li>
-                <li>
+                <li class="team-number">
                     <img class="photo-team"
                     src="./images/team/ME.jpg" 
                     alt="Михаил Ермаков" 
@@ -149,18 +156,22 @@
     </main>
 
     <footer class="footer-bg">
-        <address class="adress-list">
-            <a class="logo-footer" href="./portfolio.html">Web<span class="logo-white">Studio</span></a>
-            <p class="adress-owner">г. Киев, пр-т Леси Украинки, 26</p> 
-            <ul class="footer-link">
-                <li class="adress-item">
-                    <a class="mail-link" href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li class="adress-item">
-                    <a class="tel-link" href="+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+        <div class="container">
+            <address class="adress-list">
+                <a class="logo-footer" href="./portfolio.html">Web<span class="logo-white">Studio</span></a>
+                <p class="adress-owner">г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="footer-link">
+                    <li class="adress-item">
+                        <a class="mail-link" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                     <li class="adress-item">
+                        <a class="tel-link" href="+380991111111">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+
+       
        
     </footer>
     
