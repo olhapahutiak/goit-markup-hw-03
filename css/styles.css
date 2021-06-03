@@ -203,7 +203,7 @@ a {
 }
 
 .filter-container {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .filter-button {
@@ -240,6 +240,10 @@ a {
 }
 
 /* PROJECTS */
+.projects {
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
 
 .projects-list {
   display: flex;
@@ -252,6 +256,10 @@ a {
 .title-card {
   border: 1px solid #f5f4fa;
   border-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .project-item.project-item:not(:nth-last-child(-n + 3)) {
@@ -275,12 +283,14 @@ a {
 
 /* Подвал */
 .logo-footer {
+  display: block;
   color: var(--accent-color);
   font-weight: 700;
   font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 
 .logo-white {
@@ -297,7 +307,8 @@ a {
 
 .adress-list {
   font-style: normal;
-  display: inline-block;
+  display: block;
+  /* display: inline-block; */
 }
 
 .logo-header {
@@ -309,10 +320,14 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  margin-top: 20px;
+  margin-bottom: 9px;
 }
 
-.footer-link {
+/* .footer-link {
+  display: inline-block;
+} */
+
+.adress-item .mail-link {
   display: inline-block;
 }
 
@@ -322,12 +337,8 @@ a {
 }
 
 .mail-link {
-  margin-top: 9px;
+  margin-bottom: 9px;
   margin-left: 0;
-}
-
-.tel-link {
-  margin-top: 9px;
 }
 
 /* ===============INDEX*===============/
@@ -381,6 +392,11 @@ a {
 .features-list {
   display: flex;
   justify-content: center;
+}
+
+/* обнудення правого марджина  */
+.title-list:not(:last-child) {
+  margin-right: 30px;
 }
 
 .features {
@@ -487,6 +503,10 @@ a {
 
 .about {
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .footer-bg {
