@@ -202,9 +202,9 @@ a {
   cursor: pointer;
 }
 
-.filter-container {
+/* .filter-container {
   padding-top: 94px;
-}
+} */
 
 .filter-button {
   height: 38px;
@@ -227,6 +227,7 @@ a {
 .filter-options {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filter-item .filter-button:active {
@@ -240,10 +241,10 @@ a {
 }
 
 /* PROJECTS */
-.projects {
+/* .projects {
   padding-top: 50px;
   padding-bottom: 94px;
-}
+} */
 
 .projects-list {
   display: flex;
