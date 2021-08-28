@@ -98,7 +98,7 @@ a {
   border-bottom: 1px solid #f5f4fa;
 }
 
-/* NAV */
+/* ===============NAV================= */
 
 .main-nav {
   display: flex;
@@ -366,7 +366,7 @@ a {
   padding-bottom: 60px;
 }
 
-/* Подвал */
+/* ==================Подвал================= */
 .logo-footer {
   display: block;
   color: var(--accent-color);
@@ -428,7 +428,7 @@ a {
   margin-left: 0;
 }
 
-/* PORTFOLIO BUTTONS*/
+/* ===============PORTFOLIO BUTTONS===============*/
 
 .filter-item .filter-button:focus,
 .filter-item .filter-button:hover {
