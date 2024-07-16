@@ -318,8 +318,6 @@ body {
     align-items: center;
     column-gap: 24px;
     row-gap: 48px;
-    padding: 0;
-    margin: 0;
 }
 
 .portfolio-item {
@@ -327,6 +325,7 @@ body {
 }
 
 .portfolio-subtitle {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
@@ -364,7 +363,7 @@ body {
 }
 
 .footer-text {
-    min-width: 264px;
+    max-width: 264px;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
